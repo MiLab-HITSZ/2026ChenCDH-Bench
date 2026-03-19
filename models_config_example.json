@@ -1,0 +1,14 @@
+[
+    {
+        "model": "Qwen3-VL-32B-Instruct",
+        "base_url": "http://localhost:8001/v1",
+        "api_key": "EMPTY",
+        "backend": "api"
+    },
+    {
+        "model": "Qwen3-VL-32B-Thinking",
+        "base_url": "http://localhost:8002/v1",
+        "api_key": "EMPTY",
+        "backend": "api"
+    }
+]

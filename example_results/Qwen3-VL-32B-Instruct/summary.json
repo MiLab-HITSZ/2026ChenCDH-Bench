@@ -1,0 +1,376 @@
+{
+  "overall": {
+    "qa": {
+      "n_total": 600,
+      "n_cf": 300,
+      "n_cs": 300,
+      "CF_Acc": 0.5566666666666666,
+      "CS_Acc": 0.9333333333333333,
+      "Gap": 0.3766666666666667,
+      "CCR": 1.0,
+      "RPD": 0.4035714285714286
+    },
+    "mc": {
+      "n_total": 600,
+      "n_cf": 300,
+      "n_cs": 300,
+      "CF_Acc": 0.46,
+      "CS_Acc": 0.9266666666666666,
+      "Gap": 0.4666666666666666,
+      "CCR": 0.845679012345679,
+      "RPD": 0.5035971223021583
+    }
+  },
+  "by_category": {
+    "qa": {
+      "Attribute Anomalies": {
+        "n_total": 200,
+        "n_cf": 100,
+        "n_cs": 100,
+        "CF_Acc": 0.64,
+        "CS_Acc": 0.89,
+        "Gap": 0.25,
+        "CCR": 1.0,
+        "RPD": 0.2808988764044944
+      },
+      "Counting Anomalies": {
+        "n_total": 200,
+        "n_cf": 100,
+        "n_cs": 100,
+        "CF_Acc": 0.5,
+        "CS_Acc": 0.97,
+        "Gap": 0.47,
+        "CCR": 1.0,
+        "RPD": 0.4845360824742268
+      },
+      "Relational Anomalies": {
+        "n_total": 200,
+        "n_cf": 100,
+        "n_cs": 100,
+        "CF_Acc": 0.53,
+        "CS_Acc": 0.94,
+        "Gap": 0.4099999999999999,
+        "CCR": 1.0,
+        "RPD": 0.4361702127659574
+      }
+    },
+    "mc": {
+      "Attribute Anomalies": {
+        "n_total": 200,
+        "n_cf": 100,
+        "n_cs": 100,
+        "CF_Acc": 0.56,
+        "CS_Acc": 0.95,
+        "Gap": 0.3899999999999999,
+        "CCR": 0.9545454545454546,
+        "RPD": 0.41052631578947363
+      },
+      "Counting Anomalies": {
+        "n_total": 200,
+        "n_cf": 100,
+        "n_cs": 100,
+        "CF_Acc": 0.32,
+        "CS_Acc": 0.92,
+        "Gap": 0.6000000000000001,
+        "CCR": 0.7352941176470589,
+        "RPD": 0.6521739130434784
+      },
+      "Relational Anomalies": {
+        "n_total": 200,
+        "n_cf": 100,
+        "n_cs": 100,
+        "CF_Acc": 0.5,
+        "CS_Acc": 0.91,
+        "Gap": 0.41000000000000003,
+        "CCR": 0.9,
+        "RPD": 0.45054945054945056
+      }
+    }
+  },
+  "by_subcategory": {
+    "qa": {
+      "Attribute Anomalies / Color": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.88,
+        "CS_Acc": 1.0,
+        "Gap": 0.12,
+        "CCR": 1.0,
+        "RPD": 0.12
+      },
+      "Attribute Anomalies / Luminescence/Transparency": {
+        "n_total": 30,
+        "n_cf": 15,
+        "n_cs": 15,
+        "CF_Acc": 0.5333333333333333,
+        "CS_Acc": 0.8,
+        "Gap": 0.2666666666666667,
+        "CCR": 1.0,
+        "RPD": 0.33333333333333337
+      },
+      "Attribute Anomalies / Material": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.56,
+        "CS_Acc": 0.84,
+        "Gap": 0.2799999999999999,
+        "CCR": 1.0,
+        "RPD": 0.33333333333333326
+      },
+      "Attribute Anomalies / Physical State": {
+        "n_total": 30,
+        "n_cf": 15,
+        "n_cs": 15,
+        "CF_Acc": 0.6,
+        "CS_Acc": 0.8,
+        "Gap": 0.20000000000000007,
+        "CCR": 1.0,
+        "RPD": 0.25000000000000006
+      },
+      "Attribute Anomalies / Temperature": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.55,
+        "CS_Acc": 0.95,
+        "Gap": 0.3999999999999999,
+        "CCR": 1.0,
+        "RPD": 0.4210526315789473
+      },
+      "Counting Anomalies / Animal Parts": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.44,
+        "CS_Acc": 1.0,
+        "Gap": 0.56,
+        "CCR": 1.0,
+        "RPD": 0.56
+      },
+      "Counting Anomalies / Body Parts": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.16,
+        "CS_Acc": 1.0,
+        "Gap": 0.84,
+        "CCR": 1.0,
+        "RPD": 0.84
+      },
+      "Counting Anomalies / Everyday Objects": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.6,
+        "CS_Acc": 1.0,
+        "Gap": 0.4,
+        "CCR": 1.0,
+        "RPD": 0.4
+      },
+      "Counting Anomalies / Plant Structure": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.8,
+        "CS_Acc": 0.88,
+        "Gap": 0.07999999999999996,
+        "CCR": 1.0,
+        "RPD": 0.09090909090909087
+      },
+      "Relational Anomalies / Animal Behavior": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.6,
+        "CS_Acc": 1.0,
+        "Gap": 0.4,
+        "CCR": 1.0,
+        "RPD": 0.4
+      },
+      "Relational Anomalies / Causality": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.3,
+        "CS_Acc": 0.95,
+        "Gap": 0.6499999999999999,
+        "CCR": 1.0,
+        "RPD": 0.6842105263157894
+      },
+      "Relational Anomalies / Object Function": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.6,
+        "CS_Acc": 0.95,
+        "Gap": 0.35,
+        "CCR": 1.0,
+        "RPD": 0.3684210526315789
+      },
+      "Relational Anomalies / Size Scale": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.6,
+        "CS_Acc": 0.8,
+        "Gap": 0.20000000000000007,
+        "CCR": 1.0,
+        "RPD": 0.25000000000000006
+      },
+      "Relational Anomalies / Spatial": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.55,
+        "CS_Acc": 1.0,
+        "Gap": 0.44999999999999996,
+        "CCR": 1.0,
+        "RPD": 0.44999999999999996
+      }
+    },
+    "mc": {
+      "Attribute Anomalies / Color": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.84,
+        "CS_Acc": 1.0,
+        "Gap": 0.16000000000000003,
+        "CCR": 1.0,
+        "RPD": 0.16000000000000003
+      },
+      "Attribute Anomalies / Luminescence/Transparency": {
+        "n_total": 30,
+        "n_cf": 15,
+        "n_cs": 15,
+        "CF_Acc": 0.5333333333333333,
+        "CS_Acc": 0.9333333333333333,
+        "Gap": 0.4,
+        "CCR": 0.8571428571428571,
+        "RPD": 0.4285714285714286
+      },
+      "Attribute Anomalies / Material": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.44,
+        "CS_Acc": 0.92,
+        "Gap": 0.48000000000000004,
+        "CCR": 0.9285714285714286,
+        "RPD": 0.5217391304347826
+      },
+      "Attribute Anomalies / Physical State": {
+        "n_total": 30,
+        "n_cf": 15,
+        "n_cs": 15,
+        "CF_Acc": 0.4,
+        "CS_Acc": 0.9333333333333333,
+        "Gap": 0.5333333333333333,
+        "CCR": 1.0,
+        "RPD": 0.5714285714285714
+      },
+      "Attribute Anomalies / Temperature": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.5,
+        "CS_Acc": 0.95,
+        "Gap": 0.44999999999999996,
+        "CCR": 1.0,
+        "RPD": 0.47368421052631576
+      },
+      "Counting Anomalies / Animal Parts": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.2,
+        "CS_Acc": 0.96,
+        "Gap": 0.76,
+        "CCR": 0.65,
+        "RPD": 0.7916666666666667
+      },
+      "Counting Anomalies / Body Parts": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.12,
+        "CS_Acc": 1.0,
+        "Gap": 0.88,
+        "CCR": 0.8636363636363636,
+        "RPD": 0.88
+      },
+      "Counting Anomalies / Everyday Objects": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.28,
+        "CS_Acc": 0.92,
+        "Gap": 0.64,
+        "CCR": 0.7777777777777778,
+        "RPD": 0.6956521739130435
+      },
+      "Counting Anomalies / Plant Structure": {
+        "n_total": 50,
+        "n_cf": 25,
+        "n_cs": 25,
+        "CF_Acc": 0.68,
+        "CS_Acc": 0.8,
+        "Gap": 0.12,
+        "CCR": 0.5,
+        "RPD": 0.15
+      },
+      "Relational Anomalies / Animal Behavior": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.4,
+        "CS_Acc": 0.95,
+        "Gap": 0.5499999999999999,
+        "CCR": 0.9166666666666666,
+        "RPD": 0.5789473684210525
+      },
+      "Relational Anomalies / Causality": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.4,
+        "CS_Acc": 0.9,
+        "Gap": 0.5,
+        "CCR": 0.9166666666666666,
+        "RPD": 0.5555555555555556
+      },
+      "Relational Anomalies / Object Function": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.5,
+        "CS_Acc": 0.95,
+        "Gap": 0.44999999999999996,
+        "CCR": 1.0,
+        "RPD": 0.47368421052631576
+      },
+      "Relational Anomalies / Size Scale": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.6,
+        "CS_Acc": 0.8,
+        "Gap": 0.20000000000000007,
+        "CCR": 0.875,
+        "RPD": 0.25000000000000006
+      },
+      "Relational Anomalies / Spatial": {
+        "n_total": 40,
+        "n_cf": 20,
+        "n_cs": 20,
+        "CF_Acc": 0.6,
+        "CS_Acc": 0.95,
+        "Gap": 0.35,
+        "CCR": 0.75,
+        "RPD": 0.3684210526315789
+      }
+    }
+  }
+}
